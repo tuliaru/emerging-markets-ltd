@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {overflow-x: hidden;}
+select{cursor: pointer}
+.kcLeftSection {height: 100vh; position: relative; background-image: url(../images/signLeftBg.png); background-repeat:no-repeat; background-size: cover;}
+.kcLeftSection h1 {font-weight:600; padding-bottom: 5px;color: #ffffff;}
+.kcLeftSection h2 {
+font-size: 1.7rem;
+padding-bottom: 45px;
+color: #ffffff;
+font-weight:500;
+}
+.kcLeftSection h2 span {
+background-color: #3b82f6;
+display: inline-block;
+padding: 3px 8px;
+font-weight:600;
+}
+.kcRightSection {
+background-color: #1e293b;
+height: 100vh;
+position: relative;
+}
+.kcformBody {
+background: rgb(16,23,42);
+background: -moz-linear-gradient(99deg, rgba(16,23,42,1) 0%, rgba(17,29,53,1) 35%, rgba(25,49,93,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(16,23,42,1) 0%, rgba(17,29,53,1) 35%, rgba(25,49,93,1) 100%);
+background: linear-gradient(99deg, rgba(16,23,42,1) 0%, rgba(17,29,53,1) 35%, rgba(25,49,93,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10172a",endColorstr="#19315d",GradientType=1); 
+color: #ffffff;
+}
+.kcformBody .container{max-width: 100%; padding-right:0; padding-left:0;}
+.kcformBody .col-7 {margin:0; padding:0;}
+.kcformBody .col-5 {margin:0; padding:0;}
+
+.kcrightcontent {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 41%;
+transform: translate(-50%, -50%);
+}
+.kcIntro {
+padding: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 60%;
+text-align: center;
+}
+.kcIntro img {display:block; margin:0 auto;}
+.kcrightcontent label,
+.modal label {color: #ffffff;padding-bottom: 0;font-size: 14px;display: block;line-height: 17px;text-align: left;}
+
+.input-blocks {
+background-color: #10172a;
+border-top: #1f3e6f 1px solid;
+border-bottom: #1f3e6f 1px solid;
+padding: 11px 19px;
+width: 445px;
+margin-bottom: 15px;
+}
+.input-blocks::placeholder {color:#8795aa;}
+input::-ms-reveal,
+input::-ms-clear {
+display: none;
+}
+.kcrightcontent input[type=email], 
+.kcrightcontent input[type=password], 
+.kcrightcontent input[type=text], .kcrightcontent select,
+.addorgModal.modal input[type=email], 
+.addorgModal.modal input[type=password], 
+.addorgModal.modal input[type=text], .addorgModal.modal select,
+.buyreqmodal.modal input[type=email], 
+.buyreqmodal.modal input[type=password], 
+.buyreqmodal.modal input[type=text], .addorgModal.modal select
+{
+border: none;
+background: none;
+color: #fff;
+font-size: 14px;
+height: 26px;
+width: 100%;
+}
+.kcrightcontent select option{
+color: #000;
+}
+.kcrightcontent select {
+color: rgba(255,255,255,0.4);
+}
+.kcrightcontent .input-blocks.d-flex.align-items-center.empty-check {
+background: none;
+border: 0;
+padding: 0;
+display: block;
+}
+.kcrightcontent .form-check {
+display: block;
+margin-bottom: .125rem;
+min-height: 1.340625rem;
+padding-left: 0;
+width: 100%;
+vertical-align: middle;
+}
+.kcrightcontent .form-check-input[type=checkbox] {
+border-radius: 0;
+width: 23px;
+height: 23px;
+background: #4F46E5;
+margin: 0 20px 0 0;
+float: none;
+display: inline-block;
+vertical-align: middle;
+border: none;
+cursor: pointer;
+}
+.kcrightcontent .form-check-input[type=checkbox]:focus{
+border: none;
+box-shadow: none;
+}
+.kcrightcontent .form-check label.form-check-label {
+display: inline-block;
+vertical-align: middle;
+cursor: pointer;
+}
+.kcrightcontent h3 {padding-bottom:25px;color: #ffffff;}
+input:focus {
+outline:none;
+
+}
+
+.kcrightcontent input, .kcrightcontent select {
+height: auto;
+background: transparent;
+color: #fff;
+}
+
+.addorgModal.modal .modal-content,
+.buyreqmodal.modal .modal-content{
+width: 100%;
+}
+
+.regForm i {
+color: #ffffff;
+}
+.kcrightcontent button[type="submit"] {
+background-color: #3a81f5 !important;
+border-radius: 50px;
+border: none;
+color: #fff;
+padding: 8px 15px;
+font-size:15px;
+font-weight:600;
+margin-top: 22px;
+float:left;
+}
+.FgPass {
+float: left;
+padding-top: 34px;
+text-align: right;
+width: auto;
+font-size: 16px;
+margin-left: 13px;
+}
+.FgPass a {color:#926920; text-decoration: none; margin-right: 8px; margin-left:8px;}
+.none {display:none;}
+
+.input-blocks svg {    float: left;
+display: block;
+font-size:28px;
+margin-right: 15px;
+margin-top: 5px; color:#b6b9be;}
+.SignBtn svg {
+font-size:21px;
+margin-right: 8px;
+float: left;
+display: block;
+}
+
+.errorMessage {
+clear: both;
+color: red;
+padding-top: 10px;}
+.successMessage {
+    color: lime;
+}
+.kcrightcontent {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 48%;
+transform: translate(-50%, -50%);
+width: 85%;
+}
+.kcrightcontent-reg {
+margin: 0;
+width: 100%;
+position: relative;
+top: 0;
+left: 0;
+transform: none;
+width: 100%;
+}
+.kcRightSection-reg{
+height: auto; 
+}
+.registerSection .input-blocks {
+width: 100%;
+}
+.registerSection .full-blocks,
+.addorgModal .full-blocks{
+width: 97%;
+/* margin-left: 0; */
+margin-right: 0;
+}
+.modal-title {
+font-size: 20px !important;
+color: #fff;
+text-transform: capitalize;
+}
+.modal-header .btn-close {
+background-color: #3b2fff;
+border-radius: 50%;
+opacity: 1;
+}
+
+.input-blocks:has(input[disabled]){
+ opacity: 0.5;  
+}
+.modal.addorgModal {
+top: 60%;
+transform: translateY(-50%);
+}
+select > option{
+font-size: 15px;
+height: 50px;
+padding: 50px;
+border: 1px solid rgb(41, 18, 18);
+}
+.read-only input:read-only,
+.read-only label,
+.read-only i{
+color: #b5b5b5 !important;
+pointer-events: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+margin: 0; 
+}
+.successBD .successMessage{
+background: #03cc03;
+padding: 3px 14px;
+font-size: 14px;
+line-height: 22px;
+display: block;
+text-align: center;
+border-radius: 3px;
+text-transform: uppercase;
+letter-spacing: 0px;
+color: #fff;
+max-width: 250px;
+margin-top: 20px;
+font-weight: 500;
+}
+.errorBD .errorMessage{
+background: red;
+padding: 3px 14px;
+font-size: 14px;
+line-height: 22px;
+display: block;
+text-align: center;
+border-radius: 3px;
+text-transform: uppercase;
+letter-spacing: 0px;
+color: #fff;
+max-width: 250px;
+margin-top: 20px;
+font-weight: 500;
+}
+span.form-field {
+text-align: left;
+font-size: 13px;
+height: 26px;
+display: block;
+width: 100%;
+vertical-align: middle;
+padding: 2px 0;
+}
+@media (max-width:1024px) {
+.kcformBody .col-7 {
+width: 100%;
+}
+.kcformBody .col-5 {
+width: 100%;
+}
+.kcRightSection {
+height: auto;
+position: relative;
+padding-top: 55px;
+padding-bottom: 45px;
+background: rgb(16,23,42);
+background: linear-gradient(99deg, rgba(16,23,42,1) 0%, rgba(17,29,53,1) 35%, rgba(25,49,93,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10172a",endColorstr="#19315d",GradientType=1);
+}
+
+.kcIntro {
+padding: 0;
+position:relative;
+top:auto;
+left:auto;
+transform:none;
+width:auto;
+text-align: center;
+}
+.kcrightcontent {
+top: auto !important;
+left: auto !important;
+position: relative;
+transform: none;
+margin:0 auto;
+}
+.kcLeftSection {
+height:auto;
+text-align:center;
+padding-top: 55px;
+}
+.input-blocks {
+width: auto;
+}
+.kcIntro img {
+width: 50%;
+}
+}
